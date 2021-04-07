@@ -39,6 +39,8 @@ with(kRdata, table(Sex, result))
 
 ```
 
+Less women died in this graph than men i believe the hypothesis here is false
+
 ## We create two bar charts - one based on frequency and the other on percent
 
 ```{r}
@@ -87,3 +89,4 @@ fisher.test(table1)
 
 ## Conclusions
 
+If the null hypothesis is true there would be less female death then male death the p-value is very small
